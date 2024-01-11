@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dollerydoo Dockets
+
+## Overview
+
+Dollerydoo Dockets is a web application built with React, Next.js, TypeScript, and the Google Sheets API. It serves as an expense tracker, allowing users to generate a Google Sheets document with multiple sheets for each month.
+
+## Features
+
+- **User-Friendly Interface:** A clean and intuitive interface for entering and managing expense data.
+- **Google Sheets Integration:** Seamless integration with the Google Sheets API to create and update expense records.
+- **Monthly Sheets:** Automatically generates sheets for each month to organize expenses efficiently.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js and npm installed on your machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the Dollerydoo Dockets repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/yourusername/dollerydoo-dockets.git
 
-## Learn More
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   `cd dollerydoo-dockets`
+   `npm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Set up a project on the [Google Cloud Console](https://console.cloud.google.com/?_ga=2.237158848.1709651808.1705001131-1607468760.1705001131).
+2. Enable the Google Sheets API and create OAuth 2.0 credentials.
+3. Copy the credentials JSON file to the project's root and name it `credentials.json`
 
-## Deploy on Vercel
+### Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Start the development server:
+   `npm run dev`
+2. Open your browser and go to `http://localhost:3000` to access the Dollerydoo Dockets application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+### Acknowledgements
+
+- Special thanks to the [Google Sheets API documentation](https://developers.google.com/sheets/api/reference/rest) for guidance on integration.
+
+### Disclaimer
+
+Dollerydoo Dockets is developed for educational purposes and may not be suitable for production use.
+
+Feel free to customize any other details according to your project's specific information.
