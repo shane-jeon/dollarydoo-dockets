@@ -105,7 +105,7 @@ export function ExpenseForm() {
           name="descriptor"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Cost</FormLabel>
+              <FormLabel>Expense Description</FormLabel>
               <FormControl>
                 <Input placeholder="Double-Double Burger (lunch)" {...field} />
               </FormControl>
