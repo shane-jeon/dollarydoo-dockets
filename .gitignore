@@ -36,6 +36,6 @@ yarn-error.log*
 next-env.d.ts
 
 # confidential files
-# expense-sheets-410920-13ea3e350bc3.json
-# GoogleSheetsIntegration.ts
+expense-sheets-410920-13ea3e350bc3.json
+integrations/GoogleSheetsIntegration.ts
 testfile2.ts
